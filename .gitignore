@@ -1,3 +1,11 @@
 pkg
 *.pkg.tar.xz
 .*.swp
+/dist/
+*.gz
+*.xz
+*.build
+*.dsc
+*.changes
+*.upload
+*.deb
