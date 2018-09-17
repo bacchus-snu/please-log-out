@@ -1,7 +1,7 @@
 Source: gnome-shell-extension-please-log-out
 Section: misc
 Priority: optional
-Maintainer: Jangho Seo <jangho@bacchus.snucse.org>
+Maintainer: Bacchus <contact@bacchus.snucse.org>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
 
