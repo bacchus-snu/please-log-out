@@ -2,6 +2,7 @@ const Main = imports.ui.main;
 const Lang = imports.lang;
 const system = Main.panel.statusArea['aggregateMenu']._system;
 const actor = system._actionsItem.actor;
+const BoxPointer = imports.ui.boxpointer;
 
 let logOutAction;
 
@@ -13,7 +14,10 @@ function _onLogOutClicked() {
 
 function init() {
   logOutAction = system._createActionButton('system-log-out-symbolic', _("Log Out"));
-  logOutAction.connect('clicked', Lang.bind(system, _onLogOutClicked));
+  logOutAction.connect('clicked', () => {
+    system.menu.itemActivated(BoxPointer.PopupAnimation.NONE);
+    system._systemActions.activateLogout();
+  });
 }
 
 function enable() {
