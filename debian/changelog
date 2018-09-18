@@ -1,3 +1,15 @@
+gnome-shell-extension-please-log-out (0.3.3-1) bionic; urgency=medium
+
+  * Bump source version (to avoid source conflict at launchpad)
+
+ -- Jangho Seo <jangho@bacchus.snucse.org>  Tue, 18 Sep 2018 05:26:38 +0900
+
+gnome-shell-extension-please-log-out (0.3.2-1) bionic; urgency=medium
+
+  * Fix to support gnome 3.28
+
+ -- Moduhary Jeong <moduhary@bacchus.snucse.org>  Mon, 03 Sep 2018 21:47:38 +0900
+
 gnome-shell-extension-please-log-out (0.3-1) xenial; urgency=medium
 
   * Bump version

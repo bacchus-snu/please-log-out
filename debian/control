@@ -1,11 +1,11 @@
 Source: gnome-shell-extension-please-log-out
 Section: misc
 Priority: optional
-Maintainer: JangHo Seo <jangho@jangho.kr>
+Maintainer: Bacchus <contact@bacchus.snucse.org>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
 
 Package: gnome-shell-extension-please-log-out
 Architecture: all
-Depends: ${misc:Depends}, gnome-shell (>=3.18)
+Depends: ${misc:Depends}, gnome-shell (>=3.28)
 Description: A gnome-shell extension to show logout button on the system menu
